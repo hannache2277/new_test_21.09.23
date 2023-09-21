@@ -1,0 +1,4 @@
+Чтобы настроить gitignore нужно сделать так, чтобы git забыл парку .idea 
+Для начала удалите папку из git: git rm -r --cached .idea
+
+Далее в .gitignore добавить  .idea/ 
